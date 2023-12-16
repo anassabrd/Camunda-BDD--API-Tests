@@ -1,0 +1,45 @@
+
+{
+  "variables": {
+    "service_type": {
+      "value": "mobile",
+      "type": "String"
+    },
+    "agree_terms": {
+      "value": true,
+      "type": "Boolean"
+    },
+    "customer_address": {
+      "value": "Paris 23500",
+      "type": "String"
+    },
+    "customer_name": {
+      "value": "Anass ABAROUDI",
+      "type": "String"
+    },
+    "services": {
+      "value": "[\"adsl\",\"mobile\",\"cable\"]",
+      "type": "Object",
+      "valueInfo": {
+        "serializationDataFormat": "application/json",
+        "objectTypeName": "java.util.ArrayList"
+      }
+    },
+    "isAgree": {
+      "value": true,
+      "type": "Boolean"
+    },
+    "isPaymentSuccessful": {
+      "value": true,
+      "type": "Boolean"
+    },
+    "isServiceAvailable": {
+      "value": false,
+      "type": "Boolean"
+    },
+    "isCreditValid": {
+      "value": true,
+      "type": "Boolean"
+    }
+  }
+}
